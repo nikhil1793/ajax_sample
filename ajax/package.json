@@ -1,0 +1,16 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "sample ajax application",
+  "scripts": {
+    "build-server":"lite-server",
+    "start":"npm run build-server"
+  },
+  "author": "Nikhil Srivastava",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lite-server": "^2.2.2"
+  }
+}
